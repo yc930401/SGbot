@@ -24,39 +24,39 @@ The components are:
 ## Result
 
 #### Simulated user
-User Goal: {'request_slots': ['duration', 'is_weekend'], 'inform_slots': {'region': 'other', 'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}}
+User Goal: {'request_slots': ['duration', 'is_weekend'], 'inform_slots': {'region': 'other', 'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}} </br>
 
-User State: {'request_slots': ['event'], 'history_slots': {}, 'turn': 1, 'inform_slots': {'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}, 'rest_slots': ['region', 'duration', 'is_weekend'], 'act': 1}
+User State: {'request_slots': ['event'], 'history_slots': {}, 'turn': 1, 'inform_slots': {'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}, 'rest_slots': ['region', 'duration', 'is_weekend'], 'act': 1} </br>
 
-Agent State: {'request_slots': ['region'], 'turn': 1332, 'sentence': '', 'inform_slots': {}, 'act': 0}
-Episode over: False, Reward: 10
+Agent State: {'request_slots': ['region'], 'turn': 1332, 'sentence': '', 'inform_slots': {}, 'act': 0} </br>
+Episode over: False, Reward: 10 </br>
 
-User State: {'request_slots': ['event'], 'history_slots': {'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}, 'turn': 2, 'inform_slots': {'region': 'other'}, 'rest_slots': ['duration', 'is_weekend'], 'act': 1}
+User State: {'request_slots': ['event'], 'history_slots': {'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}, 'turn': 2, 'inform_slots': {'region': 'other'}, 'rest_slots': ['duration', 'is_weekend'], 'act': 1} </br>
 
-Agent State: {'request_slots': {}, 'turn': 1333, 'sentence': '', 'inform_slots': {'event': "I'm able to find the event.", 'name': u'Tuesday Night Badminton Game, 4 Aug, 8-10pm @ Geh Poh Ville Community Club'}, 'act': 1}
-Episode over: False, Reward: -10
+Agent State: {'request_slots': {}, 'turn': 1333, 'sentence': '', 'inform_slots': {'event': "I'm able to find the event.", 'name': u'Tuesday Night Badminton Game, 4 Aug, 8-10pm @ Geh Poh Ville Community Club'}, 'act': 1} </br>
+Episode over: False, Reward: -10 </br>
 
-User State: {'request_slots': ['event'], 'history_slots': {'region': 'other', 'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}, 'turn': 3, 'inform_slots': {}, 'rest_slots': ['duration', 'is_weekend'], 'act': 5}
+User State: {'request_slots': ['event'], 'history_slots': {'region': 'other', 'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}, 'turn': 3, 'inform_slots': {}, 'rest_slots': ['duration', 'is_weekend'], 'act': 5} </br>
 
-Agent State: {'request_slots': {}, 'turn': 1334, 'sentence': '', 'inform_slots': {'event': "I'm able to find the event.", 'name': u'Speed Dating Event\u2605\u2605\u260524-36F\u2605\u2605\u2605\xad28-39M'}, 'act': 1}
-Episode over: False, Reward: 50
+Agent State: {'request_slots': {}, 'turn': 1334, 'sentence': '', 'inform_slots': {'event': "I'm able to find the event.", 'name': u'Speed Dating Event\u2605\u2605\u260524-36F\u2605\u2605\u2605\xad28-39M'}, 'act': 1} </br>
+Episode over: False, Reward: 50 </br>
 
-User State: {'request_slots': ['is_weekend'], 'history_slots': {'region': 'other', 'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}, 'turn': 4, 'inform_slots': {}, 'rest_slots': ['duration'], 'act': 0}
+User State: {'request_slots': ['is_weekend'], 'history_slots': {'region': 'other', 'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}, 'turn': 4, 'inform_slots': {}, 'rest_slots': ['duration'], 'act': 0} </br>
 
-Agent State: {'request_slots': {}, 'turn': 1335, 'sentence': '', 'inform_slots': {'is_weekend': False}, 'act': 1}
-Episode over: False, Reward: 50
+Agent State: {'request_slots': {}, 'turn': 1335, 'sentence': '', 'inform_slots': {'is_weekend': False}, 'act': 1} </br>
+Episode over: False, Reward: 50 </br>
 
-User State: {'request_slots': ['duration'], 'history_slots': {'region': 'other', 'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}, 'turn': 5, 'inform_slots': {}, 'rest_slots': [], 'act': 0}
+User State: {'request_slots': ['duration'], 'history_slots': {'region': 'other', 'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}, 'turn': 5, 'inform_slots': {}, 'rest_slots': [], 'act': 0} </br>
 
-Agent State: {'request_slots': {}, 'turn': 1336, 'sentence': '', 'inform_slots': {'duration': "I also don't know"}, 'act': 1}
-Episode over: False, Reward: 100
+Agent State: {'request_slots': {}, 'turn': 1336, 'sentence': '', 'inform_slots': {'duration': "I also don't know"}, 'act': 1} </br>
+Episode over: False, Reward: 100 </br>
 
-User State: {'request_slots': [], 'history_slots': {'region': 'other', 'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}, 'turn': 6, 'inform_slots': {}, 'rest_slots': [], 'act': 4}
+User State: {'request_slots': [], 'history_slots': {'region': 'other', 'name': u'Tots Mind & Movement - $20 Trial Promo', 'event_host': u'Mums, Babies and Kids Activities (Inspire Mum & Baby)'}, 'turn': 6, 'inform_slots': {}, 'rest_slots': [], 'act': 4} </br>
 
-Agent State: {'request_slots': {}, 'turn': 1337, 'sentence': '', 'inform_slots': {}, 'act': 4}
-Episode over: True, Reward: 100
+Agent State: {'request_slots': {}, 'turn': 1337, 'sentence': '', 'inform_slots': {}, 'act': 4} </br>
+Episode over: True, Reward: 100 </br>
 
-************* simulation episode 211: Success, score: 300
+************* simulation episode 211: Success, score: 300 </br>
 
 
 ## References
