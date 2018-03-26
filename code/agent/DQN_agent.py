@@ -7,7 +7,6 @@ from keras.layers import Dense, Dropout
 from keras.optimizers import Adam
 import dialog_config
 import db_helper
-from natural_language_generator_rule import NL_rule_generator
 from keras import initializers
 
 
@@ -30,7 +29,6 @@ class DQNAgent:
             self.dialog_act)
         self.action_size = len(dialog_config.REQUEST_SLOTS) + len(dialog_config.INFORMATION_SLOTS)
         self.model = self._build_model()
-        self.nlg = NL_rule_generator()
 
 
     def initialize(self):
@@ -92,6 +90,7 @@ class DQNAgent:
         #if os.path.exists(name):
         try:
             self.model.load_weights(name)
+            self.epsilon = 0.12
         except:
             pass
 
@@ -130,7 +129,7 @@ class DQNAgent:
         if response_action['act'] == dialog_config.DIALOG_ACT['INFORM']:
             self.db_search(response_action, user_informed_slots)
         response_action['turn'] = self.turn
-        response_action['sentence'] = self.generate_sentence(response_action)
+        response_action['sentence'] = ''
         self.turn += 1
 
         if not self.mode and len(self.memory) > self.batch_size and not self.episode_over:
@@ -140,9 +139,6 @@ class DQNAgent:
             self.save("dqn.h5")
         return response_action, action, self.episode_over
 
-
-    def generate_sentence(self, response_action):
-        return self.nlg.convert_state_to_nl(response_action)
 
     def db_search(self, response_action, user_informed_slots):
         if "event" in response_action['inform_slots'].keys():

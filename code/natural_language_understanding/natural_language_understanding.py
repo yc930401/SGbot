@@ -4,4 +4,4 @@ class NL_understanding():
 
 
     def convert_state_to_nl(self, response_action):
-        pass
+        return response_action

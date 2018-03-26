@@ -2,7 +2,7 @@ import random
 import numpy as np
 import dialog_config
 import db_helper
-from natural_language_generator_rule import NL_rule_generator as rule_NLG
+
 
 
 class user_simulator():
@@ -14,7 +14,6 @@ class user_simulator():
         self.request_slot_names = dialog_config.REQUEST_SLOTS
         self.event_data = self.__load_event_Data__()
         self.start_conversation()
-        self.nlu = rule_NLG()
 
 
     # init user goal and state
@@ -72,7 +71,7 @@ class user_simulator():
         sample_action['inform_slots'] = self.state['inform_slots']
         sample_action['request_slots'] = self.state['request_slots']
         sample_action['turn'] = self.state['turn']
-        sample_action['sentence'] = self.generate_sentence(sample_action)
+        sample_action['sentence'] = ''
 
         return sample_action, self.dialog_status
 
@@ -124,7 +123,7 @@ class user_simulator():
         response_action['inform_slots'] = self.state['inform_slots']
         response_action['request_slots'] = self.state['request_slots']
         response_action['turn'] = self.state['turn']
-        response_action['sentence'] = self.generate_sentence(response_action)
+        response_action['sentence'] = ''
 
         return response_action, self.dialog_status, self.state
 
@@ -284,10 +283,6 @@ class user_simulator():
             if 'event' not in self.state['request_slots']:
                 self.dialog_status = dialog_config.DIALOG_STATUS['FAILED_TEMP']
             self.state['act'] = dialog_config.DIALOG_ACT['REQUEST']
-
-
-    def generate_sentence(self, response_action):
-        return self.nlu.convert_state_to_nl(self.state)
 
 
 if __name__ == '__main__':

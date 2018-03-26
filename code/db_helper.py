@@ -93,7 +93,7 @@ def search(user_informed_slots):
                                     "lt": "9999999999000"
                                     }}}],
             "must_not": [],
-            "should": [{"term": {key: value}}
+            "should": [{"match_phrase": {key: value}}
                        for key, value in should_query.items()]+
                         [{"range": {
                             key: {

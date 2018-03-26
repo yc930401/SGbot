@@ -1,5 +1,7 @@
 from state_tracker import state_tracker
 import dialog_config
+from natural_language_generator_rule import NL_rule_generator as rule_NLG
+from natural_language_understanding import NL_understanding as NLU
 
 
 class dialog_manager:
@@ -14,6 +16,8 @@ class dialog_manager:
         self.user_action = None
         self.agent_action = None
         self.reward = 0
+        self.nlg = rule_NLG()
+        self.nlu = NLU()
 
 
     def initialize(self):
@@ -25,6 +29,10 @@ class dialog_manager:
         self.state_tracker.initialize()
         # generate new user agenda
         self.user_action, dialog_status = self.user.generate_user_agenda(max_turn = self.max_turn)
+        if self.user_action['sentence'] == '':
+            self.user_action['sentence'] = self.generate_sentence(self.user_action)
+        else:
+            self.user_action = self.parse_sentence(self.user_action)
         # update user state
         self.state_tracker.update(user_action=self.user_action)
         self.agent.initialize()
@@ -35,6 +43,7 @@ class dialog_manager:
         agent_state = self.state_tracker.get_agent_input_vector()
         self.agent_action, action, self.episode_over = self.agent.generate_agent_response(agent_state, \
                 self.state_tracker.all_slots['user_informed_slots'], self.state_tracker.act)
+        self.agent_action['sentence'] = self.generate_sentence(self.agent_action)
         print('Agent State: {}'.format(self.agent_action))
         self.state_tracker.update(agent_action=self.agent_action)
 
@@ -62,3 +71,9 @@ class dialog_manager:
         #    user_action == dialog_config.DIALOG_ACT["CLOSING"]:
         #    reward -= (self.max_turn*2 - turn) * 60 # if 50, the same as respond wrongly.
         return reward
+
+    def generate_sentence(self, response_action):
+        return self.nlg.convert_state_to_nl(response_action)
+
+    def parse_sentence(self, response_action):
+        return self.nlu.convert_nl_to_state(response_action)

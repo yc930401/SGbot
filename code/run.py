@@ -1,12 +1,15 @@
 import time
 from user_simulator import user_simulator
+from real_user import real_user
 from DQN_agent import DQNAgent
 from dialog_manager import dialog_manager
 
 class responder():
 
-    def __init__(self, agent=DQNAgent(mode=0), user=user_simulator(), mode=0):
+    def __init__(self, mode=0):
         self.mode = mode
+        agent = DQNAgent(mode=self.mode)
+        user = user_simulator()
         self.manager = dialog_manager(agent, user, self.mode, maximum_turn = 20)
         self.simulation_epoch_size = 800
 
@@ -66,6 +69,7 @@ if __name__ == '__main__':
     '''
 
     # testing process
-    res = responder(agent=DQNAgent(mode=1), mode=1)
+    res = responder(mode=1)
     start_time = time.time()
     res.run()
+
