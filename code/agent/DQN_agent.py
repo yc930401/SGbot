@@ -1,9 +1,8 @@
 import random
 import numpy as np
-from operator import itemgetter
 from collections import deque
 from keras.models import Sequential
-from keras.layers import Dense, Dropout
+from keras.layers import Dense
 from keras.optimizers import Adam
 import dialog_config
 import db_helper
@@ -103,11 +102,11 @@ class DQNAgent:
         # fill in state according to action
         response_action = {}
         response_action['inform_slots'] = {}
-        response_action['request_slots'] = {}
+        response_action['request_slots'] = []
         if user_act == dialog_config.DIALOG_ACT["CLOSING"]:
             response_action['act'] = dialog_config.DIALOG_ACT["CLOSING"]
             self.episode_over = True
-        elif sum(agent_input) == 0:
+        elif user_act == dialog_config.DIALOG_ACT["GREETING"]:
             response_action['act'] = dialog_config.DIALOG_ACT["GREETING"]
         elif user_act == dialog_config.DIALOG_ACT["THANK"]:
             response_action['act'] = dialog_config.DIALOG_ACT["THANK"]

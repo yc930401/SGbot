@@ -6,11 +6,11 @@ from dialog_manager import dialog_manager
 
 class responder():
 
-    def __init__(self, mode=0):
-        self.mode = mode
-        agent = DQNAgent(mode=self.mode)
+    def __init__(self, train_mode=0):
+        self.train_mode = train_mode
+        agent = DQNAgent(mode=self.train_mode)
         user = user_simulator()
-        self.manager = dialog_manager(agent, user, self.mode, maximum_turn = 20)
+        self.manager = dialog_manager(agent, user, self.train_mode, maximum_turn = 20)
         self.simulation_epoch_size = 800
 
 
@@ -20,7 +20,7 @@ class responder():
         cumulative_turns = 0
 
         res = {}
-        if self.mode:
+        if self.train_mode:
             self.manager.initialize()
             episode_over = False
             while (not episode_over):
@@ -62,14 +62,16 @@ class responder():
 if __name__ == '__main__':
     # training process
     '''
-    res = responder()
+    res = responder(train_mode=0)
     start_time = time.time()
     res.run()
     print("Training time: {} hours ".format((time.time() - start_time) / 3600))
     '''
 
-    # testing process
-    res = responder(mode=1)
-    start_time = time.time()
-    res.run()
+    for i in range(10):
+        # testing process
+        res = responder(train_mode=1)
+        start_time = time.time()
+        res.run()
+        print('\n\n')
 
