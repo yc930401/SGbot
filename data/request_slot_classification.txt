@@ -1,0 +1,740 @@
+I want to know the venue of the event
+venue_name
+I want to know the venue of it
+venue_name
+May I have the venue of the event
+venue_name
+May I know the venue of the event
+venue_name
+May I know where it will be held
+venue_name
+May I know where it'll be held
+venue_name
+May I know where it is held
+venue_name
+May I know where can I find the event
+venue_name
+May I know the place it will be held
+venue_name
+May I know the place it'll be held
+venue_name
+May I know the place of the event
+venue_name
+May I know the place of it
+venue_name
+May I know the place the event will be held
+venue_name
+Can I know which venue will it be held
+venue_name
+Can I know which venue will it be held
+venue_name
+Can I know which venue will the event be held
+venue_name
+Can you tell me the venue of the event
+venue_name
+Can you tell me the venue of it
+venue_name
+Can you tell me the place of the event
+venue_name
+Can you tell me the place of it
+venue_name
+Where will the event be held
+venue_name
+Where will it be held
+venue_name
+Where will the event be organised
+venue_name
+Where can I find the group
+venue_name
+Where can I find the organiser
+venue_name
+Where can I find the event
+venue_name
+Where is it
+venue_name
+Can you help me check the venue of the event
+venue_name
+Can you help me check the venue of it
+venue_name
+Can you help me check the place of the event
+venue_name
+Can you help me check the place of it
+venue_name
+Tell me the venue of that event
+venue_name
+Tell me the venue of it
+venue_name
+Could you please tell me the venue of the event
+venue_name
+Could you please tell me the venue of it
+venue_name
+Could you please help me check the venue of the event
+venue_name
+Please tell me the venue of the event
+venue_name
+Please tell me the venue of it
+venue_name
+Please tell me where it will be held
+venue_name
+Please tell me where it'll be held
+venue_name
+Please tell me the place of the event
+venue_name
+Which venue
+venue_name
+Venue
+venue_name
+May I know the address of it
+address
+May I know the address of the event
+address
+May I know the address of the building
+address
+May I know the exact place where it will be held
+address
+May I have the place where it'll be held
+address
+May I have the address of the event
+address
+May I have the address of it
+address
+Can you tell me the address
+address
+Can you tell me the address of it
+address
+Can you tell me the address of the event you recommended
+address
+Can you tell me the exact place of it
+address
+Could you please tell me the address
+address
+Could you please tell me the address of it
+address
+Could you please tell me the address of the event
+address
+Could you please tell me the exact address
+address
+I want to know the address
+address
+I want to know the address of the event you recommended
+address
+I want to know the address of the event
+address
+I want to know the address of it
+address
+I want to know the address
+address
+I want to know its address
+address
+Can you help me check the address
+address
+Can you help me check the address of it
+address
+Can you help me with the address of it
+address
+Can you help me check the place of the event
+address
+Can you help me check the place it'll be held
+address
+Can you help me check the place it will be held
+address
+Tell me the place it will be held
+address
+Tell me the address
+address
+Tell me the address of the event
+address
+Tell me the address of it
+address
+Please tell me the address of it
+address
+Please tell me the exact place that it'll be held
+address
+Please tell me the exact place that it will be held
+address
+Where is it
+address
+Where will it be held
+address
+Where can I find it
+address
+The address
+address
+The address of it
+address
+Address
+address
+Where
+address
+Which group it belongs to
+event_host
+Which group the event belongs to
+event_host
+Which group will organise the event
+event_host
+Who is the organiser
+event_host
+Who's the organiser
+event_host
+Who will organise it
+event_host
+Who will organise the event
+event_host
+Who organise the event
+event_host
+Who organise it
+event_host
+May I know the organiser
+event_host
+May I know the organiser of it
+event_host
+May I know which group holds it
+event_host
+May I know which group will hold it
+event_host
+May I know the group of the event
+event_host
+May I know which group will hold the event
+event_host
+May I know which group holding the event
+event_host
+May I know which group organising the event
+event_host
+May I know which group that organise the event
+event_host
+May I know the group of it
+event_host
+Can I have the name of the group
+event_host
+Can I know which group that holds it
+event_host
+Can I know the group organising it
+event_host
+Can I know the group holding it
+event_host
+Tell me the group that holds the event
+event_host
+Tell me which group it belongs to
+event_host
+Tell me the host of the event
+event_host
+Tell me the organiser of the event
+event_host
+Please tell me who will organise it
+event_host
+Please tell me who will organise the event
+event_host
+Please tell me who will hold the event
+event_host
+Please tell me the host of tht event
+event_host
+Can you help me check the host of that event
+event_host
+Could you please help me check the organiser of the event
+event_host
+Could you please help me check the organiser of it
+event_host
+Could you please help me check the organiser
+event_host
+Could you tell me the group that will hold the event
+event_host
+Could you tell me the group that will organise the event
+event_host
+The organiser
+event_host
+The group
+event_host
+When will it be held
+date_start
+When will the event be held
+date_start
+When is itWhen is the event
+date_start
+When is the event start
+date_start
+When will the event begin
+date_start
+When will it begin
+date_start
+On which day will it be held
+date_start
+On which day will the event be held
+date_start
+May I know the date of the event
+date_start
+May I know when will it be held
+date_start
+May I know when is it
+date_start
+May I have the date of the event
+date_start
+May I have the date of it
+date_start
+May I have the date
+date_start
+When
+date_start
+Which day will it be held
+date_start
+Which day
+date_start
+The date
+date_start
+Its date
+date_start
+Date
+date_start
+Tell me the date
+date_start
+Tell me when is it
+date_start
+Tell me when
+date_start
+Tell me when will it begin
+date_start
+Tell me the start date
+date_start
+Could you help me check the date
+date_start
+Could you tell me when is it
+date_start
+Could you please tell me the date
+date_start
+Could you please tell me the date of it
+date_start
+Could you please tell me when is it
+date_start
+Please tell me the date
+date_start
+Help me check the date
+date_start
+Help me check when is it
+date_start
+Help me check the date of the event
+date_start
+Can you tell me the time
+time
+Can you tell me the start time of the event
+time
+Can you tell me the start time of it
+time
+When will it start
+time
+When will it begin
+time
+When will the event begin
+time
+The timeTime
+time
+What time
+time
+The exact time
+time
+The start time
+time
+Could you please tell me the time it begins
+time
+Could you please tell the time of the event
+time
+Could you please tell me the time of it
+time
+Could you tell me the start time of it
+time
+Tell me the time of it
+time
+Tell me the time
+time
+Tell me the time of the event
+time
+Tell me the time it begins
+time
+Tell me the time it will begin
+time
+Tell me when is the event
+time
+Could you please tell me the time
+time
+Could you please tell me the time of it
+time
+Could you please tell me the time of the event you recommended
+time
+Please tell me the exact time
+time
+Please tell me the time it begins
+time
+Please tell me the time of it
+time
+On what time
+time
+Could you please help me check the time
+time
+Could you please help me check the time of it
+time
+Could you check the time of it
+time
+Could you check when it begins
+time
+Could you check when it will begin
+time
+Price
+price
+The priceThe price of it
+price
+The price of the event
+price
+Is it free
+price
+Is it free or not
+price
+Free
+price
+How much
+price
+How much is it
+price
+How much does it take
+price
+Fee
+price
+Is it free or not
+price
+Is it a free event
+price
+Help me check the price
+price
+Can you tell me the price
+price
+Can you tell me the fee
+price
+What's the price of it
+price
+What's the fee of it
+price
+What's the price of the event
+price
+What's the fee of the event
+price
+What's the price
+price
+What's the fee
+price
+Is it expensive
+price
+Is it cheap
+price
+Do I need to pay
+price
+How much do I need to pay
+price
+How much to pay
+price
+Do you know how much is the fee
+price
+Do you know the price
+price
+I want to know the price
+price
+I want to know the fee
+price
+Tell me if it's expensive
+price
+Tell me if it is cheap
+price
+Tell me if it is free
+price
+Can you help me check the price
+price
+Can you help me check the fee
+price
+Could you please help me check the price
+price
+Could you please help me check the fee
+price
+Could you please help me check if it is free
+price
+Could you please help me check how much is it
+price
+Is it in the weekend
+is_weekend
+Is it a weekend event
+is_weekend
+Is it a weekday event
+is_weekend
+On weekday or weekend
+is_weekend
+Is it occurring on weekend
+is_weekend
+Is it organised on weekend
+is_weekend
+Is it occurring on weekday
+is_weekend
+Is it organised on weekday
+is_weekend
+Is it on weekend
+is_weekend
+Is it on weekday
+is_weekend
+Can you tell me if it is on weekend
+is_weekend
+Can you tell me if it is on weekday
+is_weekend
+Can you tell me if it is a weekend event
+is_weekend
+Can you tell me if it is a weekday event
+is_weekend
+Could you please help me check if it is on weekday
+is_weekend
+Could you please help me check if it is on weekend
+is_weekend
+Could you please help me check if it is a weekday event
+is_weekend
+Could you please help me check if it is a weekend event
+is_weekend
+Tell me if it is on weekday
+is_weekend
+Tell me if it's on weekday
+is_weekend
+Tell me if it is on weekend
+is_weekend
+Tell me if it's on weekend
+is_weekend
+May I know if it is on weekday
+is_weekend
+May I know if it's on weekday
+is_weekend
+May I know if it is on weekend
+is_weekend
+May I know if it's on weekend
+is_weekend
+Please tell me if it's a weekday event
+is_weekend
+Please tell me if it's a weekend event
+is_weekend
+Please tell me if it is on weekday
+is_weekend
+Please tell me if it is on weekend
+is_weekend
+On weekday
+is_weekend
+Weekday
+is_weekend
+On weekend
+is_weekend
+Weekend
+is_weekend
+Is it in the morning
+part_of_day
+Is it in the afternoon
+part_of_day
+Is it in the evening
+part_of_day
+Is it at night
+part_of_day
+Is it a morning event
+part_of_day
+Is it a afternoon event
+part_of_day
+Is it a evening event
+part_of_day
+Is it a night event
+part_of_day
+Will it be held in the evening
+part_of_day
+Will it be held in the afternoon
+part_of_day
+Will it be held in the morning
+part_of_day
+Will it be held at night
+part_of_day
+Will it be held after dawn
+part_of_day
+Will it be held in the day break
+part_of_day
+Will it be organised in the evening
+part_of_day
+Will it be organised in the afternoon
+part_of_day
+Will it be organised in the morning
+part_of_day
+Will it be organised at night
+part_of_day
+Will it be organised after dawn
+part_of_day
+Will it be organised in the day break
+part_of_day
+Can you tell me if it is organised in the morning
+part_of_day
+Can you tell me if it is organised in the evening
+part_of_day
+Can you tell me if it is organised in the afternoon
+part_of_day
+Can you tell me if it is a morning event
+part_of_day
+Can you tell me if it is an evening event
+part_of_day
+Can you tell me if it is an afternoon event
+part_of_day
+Morning
+part_of_day
+Afternoon
+part_of_day
+Evening
+part_of_day
+At night
+part_of_day
+Noon
+part_of_day
+In the day break
+part_of_day
+After dawn
+part_of_day
+At mid night
+part_of_day
+Midnight
+part_of_day
+In the mid day
+part_of_day
+Tell me the url
+event_url
+Tell me the url of the event
+event_url
+Tell me the link
+event_url
+Tell me the link of it
+event_url
+Tell me the link of the event
+event_url
+Tell me the web page of it
+event_url
+Tell me the wesite
+event_url
+The url
+event_url
+Url
+event_url
+The link
+event_url
+The link of it
+event_url
+The website
+event_url
+The web page
+event_url
+Tell me where I can find more information about the event
+event_url
+Tell me where I can find more info about the event
+event_url
+Could you please tell me the link of the event
+event_url
+Could you please tell me the url of the event
+event_url
+Could you please tell me the url
+event_url
+Could you help me check the url
+event_url
+Could you help me check the link
+event_url
+Please tell me the url
+event_url
+Please tell me the url of the event
+event_url
+Please tell me the url of it
+event_url
+Please tell me the link
+event_url
+Please tell me the link of it
+event_url
+Please tell me the link of the event
+event_url
+Please tell me the web page
+event_url
+Please tell me the website
+event_url
+Please tell me the website to find more info
+event_url
+Please tell me their website to find more information
+event_url
+Please tell me the link of the event to find more info
+event_url
+Please tell me the url of the event to find more information
+event_url
+Tell me the url of the event to find more info
+event_url
+Tell me the link of the event to find more information
+event_url
+Tell me their website to find more information
+event_url
+Tell me their website to find more info
+event_url
+I want to know more about the event
+event_url
+How long will it be
+duration
+How long will it last
+duration
+How long
+duration
+The duration
+duration
+The time it will last
+duration
+How long is it
+duration
+Will it finish in 2 hours
+duration
+Will it finish in 1 hour
+duration
+When will it finish
+duration
+When will it end
+duration
+How long does it take
+duration
+Can you tell me how long does it take
+duration
+Can you tell me how long is it
+duration
+Can you tell me how long does the event take
+duration
+Tell me when will it finish
+duration
+Tell me how long does it take
+duration
+Tell me when will it end
+duration
+Tell me the time it ends
+duration
+Tell me the time it finishes
+duration
+Tell me the time it will end
+duration
+Tell me the time it will finish
+duration
+Could you please tell me when will it finish
+duration
+Could you please tell me when will it end
+duration
+Can you help me check how long will it take
+duration
+Can you help me check how long will it last
+duration
+Please tell me the duration of the event
+duration
+Please tell me the duration of it
+duration
+Please tell me how long will it last
+duration
+Please tell me when will it finish
+duration
+Please tell me when will it end
+duration
+Please tell me how long does it take
+duration
+Please tell me how long will it take
+duration
+Please tell me the time it ends
+duration
+The time it finishes
+duration
+The time it ends
+duration
